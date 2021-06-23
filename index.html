@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio-sidebar</title>
+    <meta name="description" content="Portafolio-sidebar" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body class="body">
+    <div class="layout-sidebar">
+      <nav class="sidebar">
+        <div class="sidebar__header">
+          <i id="menu-icon" class="fi-rr-align-left menu-icon"></i>
+          <div class="sidebar__header__logo headers">
+            <img
+              src="./images/logo-noterindas.svg"
+              alt="Logo noterindas"
+              title="Logo noterindas"
+            />
+            <h1 class="sidebar__header__title">No te rindas</h1>
+          </div>
+        </div>
+        <ul class="navigation__principal">
+          <li class="navigation__principal__item">
+            <a class="navigation__principal__link is-active" href="#recibidos"
+              ><i class="fi-rr-box"></i
+              ><span class="navigation__principal__text link-text"
+                >Recibidos</span
+              ></a
+            >
+          </li>
+          <li class="navigation__principal__item">
+            <a class="navigation__principal__link" href="#destacados"
+              ><i class="fi-rr-star"></i
+              ><span class="navigation__principal__text link-text"
+                >Destacados</span
+              ></a
+            >
+          </li>
+          <li class="navigation__principal__item">
+            <a class="navigation__principal__link" href="#pospuestos"
+              ><i class="fi-rr-clock"></i
+              ><span class="navigation__principal__text link-text"
+                >Pospuestos</span
+              ></a
+            >
+          </li>
+          <li class="navigation__principal__item">
+            <a class="navigation__principal__link" href="#enviados"
+              ><i class="fi-rr-paper-plane"></i
+              ><span class="navigation__principal__text link-text"
+                >Enviados</span
+              ></a
+            >
+          </li>
+        </ul>
+
+        <ul class="navigation__categorias">
+          <p class="navigation__categorias_title headers">Categorías</p>
+          <li class="navigation__categorias__item">
+            <a class="navigation__categorias__link" href="#todos">
+              <i class="fi-rr-envelope"></i>
+              <span class="navigation__categorias__text link-text">Todos</span>
+            </a>
+          </li>
+          <li class="navigation__categorias__item">
+            <a class="navigation__categorias__link" href="#papelera">
+              <i class="fi-rr-trash"></i>
+              <span class="navigation__categorias__text link-text"
+                >Papelera</span
+              >
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="layout__main">
+      <main class="main">
+        <div class="main__content">
+          <img class="main__image" src="./images/image-files.svg" alt="" />
+          <span class="main__text">Tus proyectos estan vacios</span>
+        </div>
+      </main>
+    </div>
+    <script src="./js/app.js" async></script>
+  </body>
+</html>
