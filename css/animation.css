@@ -1,17 +1,16 @@
-/* 
-*===================================
-sidebar-contracted
-*===================================
-*/
-
 .is-headers-contracted {
-  opacity: 0.5;
+  opacity: 0;
 }
 
 .is-layout-contracted {
-  flex-basis: 3rem;
+  flex-basis: 3.4rem;
 }
 
 .is-text-contracted {
-  opacity: 0.5;
+  opacity: 0;
+}
+
+.is-title-hidden {
+  position: absolute;
+  left: -200px;
 }

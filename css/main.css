@@ -23,4 +23,5 @@
 .main__text {
   font: var(--headline1);
   color: var(--black);
+  text-align: center;
 }

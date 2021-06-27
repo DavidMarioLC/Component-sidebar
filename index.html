@@ -95,7 +95,7 @@
     <div class="layout-sidebar">
       <nav class="sidebar">
         <div class="sidebar__header">
-          <div class="sidebar__header__logo headers">
+          <div class="sidebar__header__logo">
             <img
               src="./images/logo-noterindas.svg"
               alt="Logo noterindas"
@@ -140,7 +140,7 @@
         </ul>
 
         <ul class="navigation__categorias">
-          <p class="navigation__categorias_title headers">Categorías</p>
+          <p class="navigation__categorias_title">Categorías</p>
           <li class="navigation__categorias__item">
             <a class="navigation__categorias__link" href="#todos">
               <i class="fi-rr-envelope"></i>
@@ -162,17 +162,44 @@
       <div class="navbar">
         <div class="wrapper">
           <div class="navbar__content">
-            <i id="menu-icon" class="fi-rr-align-left menu-icon"></i>
+            <span class="menu-icon">
+              <i
+                id="menu-icon"
+                class="fi-rr-align-left"
+                title="Acoplar menú"
+              ></i>
+            </span>
             <div class="avatar">
-              <img
-                width="32"
-                height="32"
-                class="avatar__image"
-                src="./images/avatar-perfil.png"
-                alt="Avatar de usuario"
-                title="Avatar de usuario"
-              />
+              <div class="avatar__image">
+                <img
+                  width="32"
+                  height="32"
+                  src="./images/avatar-perfil.png"
+                  alt="Avatar de usuario"
+                  title="Avatar de usuario"
+                />
+                <span class="user__state"></span>
+              </div>
               <span class="avatar__name">DavidMarioLC</span>
+              <div class="avatar__menu">
+                <ul>
+                  <li class="avatar__menu__item">
+                    <a class="avatar__menu__link" href="#profile"
+                      ><i class="fi-rr-user"></i><span>Profile</span></a
+                    >
+                  </li>
+                  <li class="avatar__menu__item">
+                    <a class="avatar__menu__link" href="#settings">
+                      <i class="fi-rr-settings"></i><span>Settings</span></a
+                    >
+                  </li>
+                  <li class="avatar__menu__item">
+                    <a class="avatar__menu__link" href="#"
+                      ><i class="fi-rr-sign-out"></i><span>Sign out</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -180,7 +207,7 @@
       <main class="main">
         <div class="main__content">
           <img class="main__image" src="./images/image-files.svg" alt="" />
-          <span class="main__text">Tus proyectos estan vacios agregalos</span>
+          <span class="main__text">Tus proyectos estan vacios</span>
         </div>
       </main>
     </div>
