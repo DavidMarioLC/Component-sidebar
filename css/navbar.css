@@ -62,7 +62,7 @@
 }
 
 .avatar__menu {
-  visibility: hidden;
+  opacity: 0;
   background: var(--white);
   position: absolute;
   width: 100%;
@@ -85,5 +85,5 @@
 }
 
 .avatar:hover > .avatar__menu {
-  visibility: visible;
+  opacity: 1;
 }
