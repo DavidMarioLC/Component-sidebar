@@ -24,19 +24,30 @@ a {
   text-decoration: none;
 }
 
+i {
+  /* font-size: 1rem; */
+}
 .body {
   display: flex;
   background: var(--primary100);
 }
 
 .layout-sidebar {
+  overflow: hidden;
   flex-basis: 15.5rem;
+
   flex-shrink: 0;
   min-height: 100vh;
   background: var(--white);
+  transition: flex-basis 1s ease;
 }
 
+/* .layout-sidebar:hover {
+  flex-basis: 15.5rem;
+} */
+
 .sidebar {
+  width: 15.5rem;
   background: var(--white);
 }
 
@@ -75,6 +86,8 @@ a {
   align-items: center;
   gap: 1rem;
   padding: 1.25rem;
+  opacity: 1;
+  transition: opacity 2s ease;
 }
 
 .sidebar__header__title {
@@ -114,8 +127,9 @@ a {
   color: var(--grey);
   border-radius: 0 12px 12px 0;
   /* property-for-animations */
-  text-indent: 0px;
-  transition: background 250ms, text-indent 1s;
+  opacity: 1;
+
+  transition: background 250ms, opacity 1s;
 }
 
 .is-active {
@@ -142,16 +156,13 @@ sidebar-contracted
 */
 
 .is-headers-contracted {
-  position: absolute;
-  left: -200px;
+  opacity: 0.5;
 }
 
 .is-layout-contracted {
-  flex-basis: auto;
+  flex-basis: 3rem;
 }
 
 .is-text-contracted {
-  position: absolute;
-  left: -200px;
-  padding: 0;
+  opacity: 0.5;
 }
