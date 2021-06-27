@@ -1,0 +1,17 @@
+/* 
+*===================================
+sidebar-contracted
+*===================================
+*/
+
+.is-headers-contracted {
+  opacity: 0.5;
+}
+
+.is-layout-contracted {
+  flex-basis: 3rem;
+}
+
+.is-text-contracted {
+  opacity: 0.5;
+}

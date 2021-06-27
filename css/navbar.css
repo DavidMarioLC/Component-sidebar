@@ -1,0 +1,25 @@
+.navbar {
+  background-color: var(--white);
+  position: sticky;
+  top: 0;
+}
+.navbar__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.avatar {
+}
+
+.avatar__name {
+  font: var(--text);
+  color: var(--grey);
+}
